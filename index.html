@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Card Game</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div id="player1">
+            <div>Player 1: </div>
+            <div id="player1score">0</div>
+        </div>
+        <div id="timerflips">
+                <div id="timer">
+                    <div>Time:</div>
+                    <div><span id="min">00</span>:<span id="sec">00</span></div>
+                </div>
+                <div id="flips">
+                    <div>Flips: </div>
+                    <div id="noOfFlips">0</div>
+                </div>
+        </div>
+        <div id="player2">
+            <div>Player 2: </div>
+            <div id="player2score">0</div>
+        </div>
+
+    </header>
+    <main>
+        <div id="cards">
+        </div>
+        <div id="winner">
+            Name of the winner
+        </div>
+    </main>
+    <!-- Load the script -->
+    <script src="memorycardgame.js"></script>
+</body>
+
+</html>
