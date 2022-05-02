@@ -10,4 +10,4 @@ On each turn the active player flips two cards:
 
 ![Game preview](images/gamePreview01.png)
 
-Note: Active player's is blue.
+Note: Active player is blue.
